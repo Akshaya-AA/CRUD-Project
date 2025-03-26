@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/CRUD-Project/static/css/main.d221dc40.css",
-    "main.js": "/CRUD-Project/static/js/main.85a234de.js",
-    "index.html": "/CRUD-Project/index.html",
-    "main.d221dc40.css.map": "/CRUD-Project/static/css/main.d221dc40.css.map",
-    "main.85a234de.js.map": "/CRUD-Project/static/js/main.85a234de.js.map"
+    "main.css": "/MySQL-CRUD-Project/static/css/main.d221dc40.css",
+    "main.js": "/MySQL-CRUD-Project/static/js/main.54e41002.js",
+    "index.html": "/MySQL-CRUD-Project/index.html",
+    "main.d221dc40.css.map": "/MySQL-CRUD-Project/static/css/main.d221dc40.css.map",
+    "main.54e41002.js.map": "/MySQL-CRUD-Project/static/js/main.54e41002.js.map"
   },
   "entrypoints": [
     "static/css/main.d221dc40.css",
-    "static/js/main.85a234de.js"
+    "static/js/main.54e41002.js"
   ]
 }
