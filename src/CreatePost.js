@@ -11,7 +11,7 @@ const CreatePost=()=>{
 
     const handleSubmit=(e)=>{
         e.preventDefault();
-        axios.post('http://localhost:3001/addpost',{title,body})
+        axios.post('https://mysql-crud-project-server.onrender.com/addpost',{title,body})
         .then((response)=>{
             console.log(response.data);
             navigate('/');

@@ -5,12 +5,12 @@ const PostsList=()=>{
     const [posts,setPosts]=useState([])
 
     useEffect(()=>{
-        axios.get('http://localhost:3001/getposts')
+        axios.get('https://mysql-crud-project-server.onrender.com/getposts')
         .then(response=>setPosts(response.data))
     },[])
     
     const hendelDelete=async(id)=>{
-      await axios.delete(`http://localhost:3001/deletepost/${id}`)
+      await axios.delete(`https://mysql-crud-project-server.onrender.com/deletepost/${id}`)
       setPosts(posts.filter(post=>post.id!==id))
     }
     return(

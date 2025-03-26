@@ -25,7 +25,7 @@ const EditPost=()=>{
       const handleSubmit=async(e)=>{
         e.preventDefault();
         try{
-            await axios.put(`http://localhost:3001/updatepost/${id}`,{title,body})
+            await axios.put(`https://mysql-crud-project-server.onrender.com/updatepost/${id}`,{title,body})
             navigate('/')
 
         }catch(err){
